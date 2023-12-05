@@ -4,8 +4,35 @@
 
 ## Run from terminal:
 
-docker build -t testdockerkrish.azurecr.io/mltest:latest .
+docker build -t favourdockerfile.azurecr.io/mltest:latest .
 
-docker login testdockerkrish.azurecr.io
+docker login favourdockerfile.azurecr.io
 
-docker push testdockerkrish.azurecr.io/mltest:latest
+docker push favourdockerfile.azurecr.io/mltest:latest
+
+
+
+##Azure Deployment Guide:
+
+    ##Azure Deployment:
+    Initiate the Azure deployment process to set up your machine learning application.
+
+    ##Azure Registry Setup:
+    Establish the Azure Container Registry to streamline the storage and management of Docker container images.
+
+    ##Docker Setup on Local Machine:
+    Configure Docker on your local machine to enable containerization of your machine learning application.
+
+    ##Push Docker to Container Registry (Azure):
+    Push your Docker container to the Azure Container Registry, ensuring seamless accessibility for deployment.
+
+    ##Create Azure Web App:
+    Generate an Azure Web App to host and deploy your machine learning application.
+
+    ##Pull Container Registry into Web App:
+    Integrate the Azure Container Registry with the Azure Web App, facilitating the deployment process.
+
+    ##Configure GitHub Actions for Deployment:
+    Utilize GitHub Actions to automate the deployment process, ensuring a smooth and efficient workflow.
+
+##This step-by-step guide provides a comprehensive walkthrough for deploying your machine learning application using Azure services, Docker, and GitHub Actions.
