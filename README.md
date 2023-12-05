@@ -4,11 +4,12 @@
 
 ## Run from terminal:
 
-docker build -t favourdockerfile.azurecr.io/mltest:latest .
+docker build -t favidocker.azurecr.io/studentperformance:latest .
+(mstudentperformance is the web app name, it can be any name you want to give your docker image)
 
-docker login favourdockerfile.azurecr.io
+docker login favidocker.azurecr.io
 
-docker push favourdockerfile.azurecr.io/mltest:latest
+docker push favidocker.azurecr.io/studentperformance:latest
 
 
 
