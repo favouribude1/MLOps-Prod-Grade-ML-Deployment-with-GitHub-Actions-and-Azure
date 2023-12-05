@@ -1,3 +1,11 @@
-An End To End ML Project -Deployment In AWS Cloud Using CICD Pipelines
+## End to End MAchine Learning Project
 
-Deploy and scale web applications 
+
+
+## Run from terminal:
+
+docker build -t testdockerkrish.azurecr.io/mltest:latest .
+
+docker login testdockerkrish.azurecr.io
+
+docker push testdockerkrish.azurecr.io/mltest:latest
